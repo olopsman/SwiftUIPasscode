@@ -8,19 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    //MARK: Properties
     let numberPad = (1...9).map {"\($0)"}
     @State private var pin: [String] = []
-    
     let columns = [
         GridItem(.flexible()),
         GridItem(.flexible()),
         GridItem(.flexible())
     ]
-    
+    //MARK: Helper methods
     func addPin(_ item: String) {
         if pin.count < 4 {
             pin.append(item)
         } else {
+            //replacement with matching logic
             pin[3] = item
         }
     }
@@ -30,7 +31,7 @@ struct ContentView: View {
             pin.remove(at: pin.count - 1)
         }
     }
-    
+        
     var body: some View {
         ZStack {
             Color.black.opacity(0.8)
