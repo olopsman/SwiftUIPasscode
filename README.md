@@ -1,4 +1,4 @@
-# SwiftUPasscode
+# SwiftUIPasscode
 
 Simple UI for SwiftUI passcode using grid views
 
