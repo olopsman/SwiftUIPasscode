@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE11433C27B7404A0053DFB1 /* SwiftUPasscodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11433B27B7404A0053DFB1 /* SwiftUPasscodeApp.swift */; };
+		BE11433E27B7404A0053DFB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11433D27B7404A0053DFB1 /* ContentView.swift */; };
+		BE11434027B7404B0053DFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE11433F27B7404B0053DFB1 /* Assets.xcassets */; };
+		BE11434327B7404B0053DFB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE11434227B7404B0053DFB1 /* Preview Assets.xcassets */; };
+		BE11434D27B7404C0053DFB1 /* SwiftUPasscodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11434C27B7404C0053DFB1 /* SwiftUPasscodeTests.swift */; };
+		BE11435727B7404C0053DFB1 /* SwiftUPasscodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11435627B7404C0053DFB1 /* SwiftUPasscodeUITests.swift */; };
+		BE11435927B7404C0053DFB1 /* SwiftUPasscodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11435827B7404C0053DFB1 /* SwiftUPasscodeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE11434927B7404C0053DFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE11433027B7404A0053DFB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE11433727B7404A0053DFB1;
+			remoteInfo = SwiftUPasscode;
+		};
+		BE11435327B7404C0053DFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE11433027B7404A0053DFB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE11433727B7404A0053DFB1;
+			remoteInfo = SwiftUPasscode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE11433827B7404A0053DFB1 /* SwiftUPasscode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUPasscode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE11433B27B7404A0053DFB1 /* SwiftUPasscodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUPasscodeApp.swift; sourceTree = "<group>"; };
+		BE11433D27B7404A0053DFB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE11433F27B7404B0053DFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE11434227B7404B0053DFB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE11434827B7404C0053DFB1 /* SwiftUPasscodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUPasscodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE11434C27B7404C0053DFB1 /* SwiftUPasscodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUPasscodeTests.swift; sourceTree = "<group>"; };
+		BE11435227B7404C0053DFB1 /* SwiftUPasscodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUPasscodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE11435627B7404C0053DFB1 /* SwiftUPasscodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUPasscodeUITests.swift; sourceTree = "<group>"; };
+		BE11435827B7404C0053DFB1 /* SwiftUPasscodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUPasscodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE11433527B7404A0053DFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE11434527B7404C0053DFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE11434F27B7404C0053DFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE11432F27B7404A0053DFB1 = {
+			isa = PBXGroup;
+			children = (
+				BE11433A27B7404A0053DFB1 /* SwiftUPasscode */,
+				BE11434B27B7404C0053DFB1 /* SwiftUPasscodeTests */,
+				BE11435527B7404C0053DFB1 /* SwiftUPasscodeUITests */,
+				BE11433927B7404A0053DFB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE11433927B7404A0053DFB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE11433827B7404A0053DFB1 /* SwiftUPasscode.app */,
+				BE11434827B7404C0053DFB1 /* SwiftUPasscodeTests.xctest */,
+				BE11435227B7404C0053DFB1 /* SwiftUPasscodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE11433A27B7404A0053DFB1 /* SwiftUPasscode */ = {
+			isa = PBXGroup;
+			children = (
+				BE11433B27B7404A0053DFB1 /* SwiftUPasscodeApp.swift */,
+				BE11433D27B7404A0053DFB1 /* ContentView.swift */,
+				BE11433F27B7404B0053DFB1 /* Assets.xcassets */,
+				BE11434127B7404B0053DFB1 /* Preview Content */,
+			);
+			path = SwiftUPasscode;
+			sourceTree = "<group>";
+		};
+		BE11434127B7404B0053DFB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE11434227B7404B0053DFB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE11434B27B7404C0053DFB1 /* SwiftUPasscodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE11434C27B7404C0053DFB1 /* SwiftUPasscodeTests.swift */,
+			);
+			path = SwiftUPasscodeTests;
+			sourceTree = "<group>";
+		};
+		BE11435527B7404C0053DFB1 /* SwiftUPasscodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE11435627B7404C0053DFB1 /* SwiftUPasscodeUITests.swift */,
+				BE11435827B7404C0053DFB1 /* SwiftUPasscodeUITestsLaunchTests.swift */,
+			);
+			path = SwiftUPasscodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE11433727B7404A0053DFB1 /* SwiftUPasscode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE11435C27B7404C0053DFB1 /* Build configuration list for PBXNativeTarget "SwiftUPasscode" */;
+			buildPhases = (
+				BE11433427B7404A0053DFB1 /* Sources */,
+				BE11433527B7404A0053DFB1 /* Frameworks */,
+				BE11433627B7404A0053DFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUPasscode;
+			productName = SwiftUPasscode;
+			productReference = BE11433827B7404A0053DFB1 /* SwiftUPasscode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE11434727B7404C0053DFB1 /* SwiftUPasscodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE11435F27B7404C0053DFB1 /* Build configuration list for PBXNativeTarget "SwiftUPasscodeTests" */;
+			buildPhases = (
+				BE11434427B7404C0053DFB1 /* Sources */,
+				BE11434527B7404C0053DFB1 /* Frameworks */,
+				BE11434627B7404C0053DFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE11434A27B7404C0053DFB1 /* PBXTargetDependency */,
+			);
+			name = SwiftUPasscodeTests;
+			productName = SwiftUPasscodeTests;
+			productReference = BE11434827B7404C0053DFB1 /* SwiftUPasscodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE11435127B7404C0053DFB1 /* SwiftUPasscodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE11436227B7404C0053DFB1 /* Build configuration list for PBXNativeTarget "SwiftUPasscodeUITests" */;
+			buildPhases = (
+				BE11434E27B7404C0053DFB1 /* Sources */,
+				BE11434F27B7404C0053DFB1 /* Frameworks */,
+				BE11435027B7404C0053DFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE11435427B7404C0053DFB1 /* PBXTargetDependency */,
+			);
+			name = SwiftUPasscodeUITests;
+			productName = SwiftUPasscodeUITests;
+			productReference = BE11435227B7404C0053DFB1 /* SwiftUPasscodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE11433027B7404A0053DFB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BE11433727B7404A0053DFB1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BE11434727B7404C0053DFB1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BE11433727B7404A0053DFB1;
+					};
+					BE11435127B7404C0053DFB1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BE11433727B7404A0053DFB1;
+					};
+				};
+			};
+			buildConfigurationList = BE11433327B7404A0053DFB1 /* Build configuration list for PBXProject "SwiftUPasscode" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE11432F27B7404A0053DFB1;
+			productRefGroup = BE11433927B7404A0053DFB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE11433727B7404A0053DFB1 /* SwiftUPasscode */,
+				BE11434727B7404C0053DFB1 /* SwiftUPasscodeTests */,
+				BE11435127B7404C0053DFB1 /* SwiftUPasscodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE11433627B7404A0053DFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE11434327B7404B0053DFB1 /* Preview Assets.xcassets in Resources */,
+				BE11434027B7404B0053DFB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE11434627B7404C0053DFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE11435027B7404C0053DFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE11433427B7404A0053DFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE11433E27B7404A0053DFB1 /* ContentView.swift in Sources */,
+				BE11433C27B7404A0053DFB1 /* SwiftUPasscodeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE11434427B7404C0053DFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE11434D27B7404C0053DFB1 /* SwiftUPasscodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE11434E27B7404C0053DFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE11435927B7404C0053DFB1 /* SwiftUPasscodeUITestsLaunchTests.swift in Sources */,
+				BE11435727B7404C0053DFB1 /* SwiftUPasscodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE11434A27B7404C0053DFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE11433727B7404A0053DFB1 /* SwiftUPasscode */;
+			targetProxy = BE11434927B7404C0053DFB1 /* PBXContainerItemProxy */;
+		};
+		BE11435427B7404C0053DFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE11433727B7404A0053DFB1 /* SwiftUPasscode */;
+			targetProxy = BE11435327B7404C0053DFB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE11435A27B7404C0053DFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE11435B27B7404C0053DFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE11435D27B7404C0053DFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUPasscode/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quonsepto.SwiftUPasscode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE11435E27B7404C0053DFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUPasscode/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quonsepto.SwiftUPasscode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE11436027B7404C0053DFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quonsepto.SwiftUPasscodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUPasscode.app/SwiftUPasscode";
+			};
+			name = Debug;
+		};
+		BE11436127B7404C0053DFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quonsepto.SwiftUPasscodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUPasscode.app/SwiftUPasscode";
+			};
+			name = Release;
+		};
+		BE11436327B7404C0053DFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quonsepto.SwiftUPasscodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUPasscode;
+			};
+			name = Debug;
+		};
+		BE11436427B7404C0053DFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quonsepto.SwiftUPasscodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftUPasscode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE11433327B7404A0053DFB1 /* Build configuration list for PBXProject "SwiftUPasscode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE11435A27B7404C0053DFB1 /* Debug */,
+				BE11435B27B7404C0053DFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE11435C27B7404C0053DFB1 /* Build configuration list for PBXNativeTarget "SwiftUPasscode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE11435D27B7404C0053DFB1 /* Debug */,
+				BE11435E27B7404C0053DFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE11435F27B7404C0053DFB1 /* Build configuration list for PBXNativeTarget "SwiftUPasscodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE11436027B7404C0053DFB1 /* Debug */,
+				BE11436127B7404C0053DFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE11436227B7404C0053DFB1 /* Build configuration list for PBXNativeTarget "SwiftUPasscodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE11436327B7404C0053DFB1 /* Debug */,
+				BE11436427B7404C0053DFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE11433027B7404A0053DFB1 /* Project object */;
+}
