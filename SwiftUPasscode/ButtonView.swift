@@ -8,27 +8,28 @@
 import SwiftUI
 
 struct ButtonView: View {
-    var number: Int
+    var number: String
+    var action: () -> Void
     var body: some View {
         Button(action: {
-            //
-            print("button tapped")
+            self.action()
         }) {
             ZStack {
                 Circle()
-                    .frame(width: 75)
+                    .frame(width: 100, height: 100)
                     .foregroundColor(.black.opacity(0.5))
                 Text("\(number)")
                     .font(.title)
                     .foregroundColor(.white)
             }
         }
-        
     }
 }
 
 struct ButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        ButtonView(number: 3)
+        ButtonView(number: "3") {
+            print("number")
+        }
     }
 }

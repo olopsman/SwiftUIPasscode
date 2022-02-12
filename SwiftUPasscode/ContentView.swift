@@ -8,69 +8,60 @@
 import SwiftUI
 
 struct ContentView: View {
+    let numberPad = (1...9).map {"\($0)"}
+    @State private var pin: [String] = []
     
-    var digits: Int = 4
-    var label = "Enter Passcode"
+    let columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
+    
+    func addPin(_ item: String) {
+        if pin.count < 4 {
+            pin.append(item)
+        } else {
+            pin[3] = item
+        }
+    }
+    
+    func deletePin() {
+        if pin.count > 0 {
+            pin.remove(at: pin.count - 1)
+        }
+    }
     
     var body: some View {
         ZStack {
             Color.black.opacity(0.8)
                 .edgesIgnoringSafeArea(.all)
-                
             
             VStack {
-                Text("Enter Passcode")
-                    .padding()
-                ZStack {
-                    HStack {
-                        Spacer()
-                        ForEach(0..<digits) { index in
-                            Image(systemName: "circle")
-                            Spacer()
-                        }
-                    }
-                }
-                .padding()
-                
-                VStack {
-                    HStack {
-                        ButtonView(number: 1)
-                        Spacer()
-                        ButtonView(number: 2)
-                        Spacer()
-                        ButtonView(number: 3)
-                    }
-                    HStack {
-                        ButtonView(number: 4)
-                        Spacer()
-                        ButtonView(number: 5)
-                        Spacer()
-                        ButtonView(number: 6)
-                    }
-                    HStack {
-                        ButtonView(number: 7)
-                        Spacer()
-                        ButtonView(number: 8)
-                        Spacer()
-                        ButtonView(number: 9)
-                    }
-                    HStack {
-                        ButtonView(number: 0)
-
-                    }
-                }
-                .padding()
-                
                 HStack {
+                    ForEach(pin, id:\.self) { item in
+                        Image(systemName: "circle.fill")
+                    }
+                }.foregroundColor(.white)
+                    .frame(width: 100, height: 100)
+                
+                LazyVGrid(columns: columns, spacing: 20) {
+                    ForEach(numberPad, id:\.self) { item in
+                        ButtonView(number: item) {
+                            addPin(item)
+                        }.frame(width: 100, height: 100)
+                    }
                     Spacer()
+                    ButtonView(number: "0") {
+                        addPin("0")
+                    }.padding(.top, 10)
                     Button(action: {
-                        //
-                        print("cancel")
+                        deletePin()
                     }) {
-                        Text("Cancel")
+                        Image(systemName: "delete.backward.fill")
+                            .resizable()
+                            .frame(width: 40, height: 40)
                     }
                 }
-                .padding()
             }
             .foregroundColor(.white)
         }.background(.ultraThinMaterial)
