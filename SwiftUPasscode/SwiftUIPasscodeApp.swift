@@ -1,5 +1,5 @@
 //
-//  SwiftUPasscodeApp.swift
+//  SwiftUIPasscodeApp.swift
 //  SwiftUPasscode
 //
 //  Created by Paulo Orquillo on 12/02/22.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SwiftUPasscodeApp: App {
+struct SwiftUIPasscodeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

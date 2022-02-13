@@ -1,5 +1,5 @@
 //
-//  ButtonView.swift
+//  PadButtonView.swift
 //  SwiftUPasscode
 //
 //  Created by Paulo Orquillo on 12/02/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ButtonView: View {
+struct PadButtonView: View {
     var number: String
     var action: () -> Void
     var body: some View {
@@ -16,7 +16,7 @@ struct ButtonView: View {
         }) {
             ZStack {
                 Circle()
-                    .frame(width: 100, height: 100)
+                    .frame(width: 80, height: 80)
                     .foregroundColor(.black.opacity(0.5))
                 Text("\(number)")
                     .font(.title)
@@ -26,9 +26,9 @@ struct ButtonView: View {
     }
 }
 
-struct ButtonView_Previews: PreviewProvider {
+struct PadButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        ButtonView(number: "3") {
+        PadButtonView(number: "3") {
             print("number")
         }
     }

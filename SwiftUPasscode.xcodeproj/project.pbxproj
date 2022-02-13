@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE11433C27B7404A0053DFB1 /* SwiftUPasscodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11433B27B7404A0053DFB1 /* SwiftUPasscodeApp.swift */; };
-		BE11433E27B7404A0053DFB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11433D27B7404A0053DFB1 /* ContentView.swift */; };
+		BE11433C27B7404A0053DFB1 /* SwiftUIPasscodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11433B27B7404A0053DFB1 /* SwiftUIPasscodeApp.swift */; };
+		BE11433E27B7404A0053DFB1 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11433D27B7404A0053DFB1 /* PasscodeView.swift */; };
 		BE11434027B7404B0053DFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE11433F27B7404B0053DFB1 /* Assets.xcassets */; };
 		BE11434327B7404B0053DFB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE11434227B7404B0053DFB1 /* Preview Assets.xcassets */; };
 		BE11434D27B7404C0053DFB1 /* SwiftUPasscodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11434C27B7404C0053DFB1 /* SwiftUPasscodeTests.swift */; };
 		BE11435727B7404C0053DFB1 /* SwiftUPasscodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11435627B7404C0053DFB1 /* SwiftUPasscodeUITests.swift */; };
 		BE11435927B7404C0053DFB1 /* SwiftUPasscodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11435827B7404C0053DFB1 /* SwiftUPasscodeUITestsLaunchTests.swift */; };
-		BE11436627B7472E0053DFB1 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11436527B7472E0053DFB1 /* ButtonView.swift */; };
+		BE11436627B7472E0053DFB1 /* PadButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11436527B7472E0053DFB1 /* PadButtonView.swift */; };
+		BE11436F27B902350053DFB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE11436E27B902350053DFB1 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +37,8 @@
 
 /* Begin PBXFileReference section */
 		BE11433827B7404A0053DFB1 /* SwiftUPasscode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUPasscode.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE11433B27B7404A0053DFB1 /* SwiftUPasscodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUPasscodeApp.swift; sourceTree = "<group>"; };
-		BE11433D27B7404A0053DFB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE11433B27B7404A0053DFB1 /* SwiftUIPasscodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPasscodeApp.swift; sourceTree = "<group>"; };
+		BE11433D27B7404A0053DFB1 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
 		BE11433F27B7404B0053DFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE11434227B7404B0053DFB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE11434827B7404C0053DFB1 /* SwiftUPasscodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUPasscodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +46,8 @@
 		BE11435227B7404C0053DFB1 /* SwiftUPasscodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUPasscodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE11435627B7404C0053DFB1 /* SwiftUPasscodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUPasscodeUITests.swift; sourceTree = "<group>"; };
 		BE11435827B7404C0053DFB1 /* SwiftUPasscodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUPasscodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BE11436527B7472E0053DFB1 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		BE11436527B7472E0053DFB1 /* PadButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadButtonView.swift; sourceTree = "<group>"; };
+		BE11436E27B902350053DFB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +98,10 @@
 		BE11433A27B7404A0053DFB1 /* SwiftUPasscode */ = {
 			isa = PBXGroup;
 			children = (
-				BE11433B27B7404A0053DFB1 /* SwiftUPasscodeApp.swift */,
-				BE11433D27B7404A0053DFB1 /* ContentView.swift */,
-				BE11436527B7472E0053DFB1 /* ButtonView.swift */,
+				BE11433B27B7404A0053DFB1 /* SwiftUIPasscodeApp.swift */,
+				BE11436E27B902350053DFB1 /* ContentView.swift */,
+				BE11433D27B7404A0053DFB1 /* PasscodeView.swift */,
+				BE11436527B7472E0053DFB1 /* PadButtonView.swift */,
 				BE11433F27B7404B0053DFB1 /* Assets.xcassets */,
 				BE11434127B7404B0053DFB1 /* Preview Content */,
 			);
@@ -260,9 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE11433E27B7404A0053DFB1 /* ContentView.swift in Sources */,
-				BE11433C27B7404A0053DFB1 /* SwiftUPasscodeApp.swift in Sources */,
-				BE11436627B7472E0053DFB1 /* ButtonView.swift in Sources */,
+				BE11433E27B7404A0053DFB1 /* PasscodeView.swift in Sources */,
+				BE11433C27B7404A0053DFB1 /* SwiftUIPasscodeApp.swift in Sources */,
+				BE11436F27B902350053DFB1 /* ContentView.swift in Sources */,
+				BE11436627B7472E0053DFB1 /* PadButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
